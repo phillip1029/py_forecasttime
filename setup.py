@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-name='Pytsforecast',
+name='py_forecasttime',
 version='0.0.1',
 description='Python workflow of operationalizing time series forecast',
 url='https://github.com/phillip1029/pytsforecast.git',
