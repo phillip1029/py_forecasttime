@@ -1,5 +1,6 @@
 import pandas as pd 
 import numpy as np
+from numpy import array
 
 # Time Series dataframe transform to the format ready for machine learning and deep learning.
 # Time related feature creation
