@@ -1,6 +1,5 @@
 import pandas as pd 
-import numpy as np
-from numpy import array
+import numpy as np 
 
 # Time Series dataframe transform to the format ready for machine learning and deep learning.
 # Time related feature creation
@@ -49,7 +48,7 @@ def split_sequence(sequence, n_steps, n_out):
         seq_x, seq_y = sequence[i:end_ix], sequence[end_iy]
         X.append(seq_x)
         y.append(seq_y)
-    return array(X), array(y)
+    return np.array(X), np.array(y)
 
 # divide training and testing, default as 70:30
 def divideTrainTest(dataset, test=0.3):
